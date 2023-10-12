@@ -1,0 +1,90 @@
+
+.contain {
+ background-color: #666;
+  max-width: auto;
+  margin: 40px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  
+}
+
+.contain h1 {
+  color: rgb(26, 29, 28);
+}
+
+
+form {
+  margin-top: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input, select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+
+
+button:hover {
+  background-color: #555;
+}
+
+.column {
+  float: left;
+  width: 41.9%;
+  padding: 25px;
+}
+.column-right{
+  float: right;
+ 
+}
+.row table {
+ background-color: rgba(255, 255, 255, 0.8);
+  border-collapse: collapse;
+  width: 100%;
+  height: auto;
+
+
+}
+
+.row table th, td {
+  border: 2px solid #ddd;
+  padding: 20px;
+  height: 40px;
+  vertical-align: center;
+}
+
+.row table th {
+  background-color: #f2f2f2;
+}
+
+.row table th td i{
+  height: 50px;
+  vertical-align: center;
+}
+ 
+
+.row .t tfoot td {
+  text-align: right;
+}
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}

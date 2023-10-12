@@ -1,0 +1,107 @@
+<style>
+    body {
+       
+        background-size: cover;
+        margin: 0;
+        text-align: center;
+    }
+	
+	header {
+  padding: 10px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+	
+	
+    table {
+    
+       color:  white;
+        
+        height: 100vh;
+        text-align: center;
+        width: 100%;
+    }
+    td {
+        font-size: 25px;
+    }
+    .heading {
+        font-size: 75px;
+    }
+    fieldset {
+        background-color: black;
+        display: inline-block;
+        text-align: left;
+        width: 25%;
+    }
+    input[type = email], [type = password], [type = text] {
+        height: 25px;
+        width: 100%;
+    }
+    input[type = submit] {
+        color: blue;
+        font-family: 'Monoton', cursive;
+        font-size: 25px;
+        height: 50px;
+        text-align: center;
+        width: 100%;
+    }
+    .subheading {
+        font-size: 50px;
+        text-align: center;
+    }
+      .error_message {
+        color: red;
+        font-family: 'Open Sans', sans-serif;
+        text-align: left;
+    }
+    a {
+        text-decoration: none;
+        color:white;
+    }
+    .forgottenPassword {
+	
+        font-family: 'Open Sans', sans-serif;
+    }
+
+	
+	
+	
+	/*login button design*/
+
+.button {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid Green;
+}
+
+.button1:hover {
+  background-color: Green;
+  color: white;
+}
+  
+ .button2 {
+  color: white; 
+}
+
+.button2:hover {
+  background-color:Cyan ;
+  color: black;
+}
+  
+  
+</style>
